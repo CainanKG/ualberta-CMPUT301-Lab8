@@ -26,9 +26,11 @@ public class City {
         return this.city.equals(cityObj.city)
                 && this.province.equals(cityObj.province);
     }
-
+    // Gets combined has code of city and province
     @Override
     public int hashCode() {
         return city.hashCode() + province.hashCode();
     }
+
+
 }
